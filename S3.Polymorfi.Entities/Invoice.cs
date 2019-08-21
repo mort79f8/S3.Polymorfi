@@ -32,7 +32,7 @@ namespace S3.Polymorfi.Entities
 
             foreach (Product product in Products)
             {
-                totalPrice += product.Price;
+                totalPrice += product.Price * product.Quantity;
             }
 
             return totalPrice;

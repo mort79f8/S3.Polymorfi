@@ -24,7 +24,6 @@ namespace S3.Polymorfi.Entities
         
         public SalesRepresentative()
         {
-
         }
         #endregion
 
