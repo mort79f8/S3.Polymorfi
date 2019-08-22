@@ -4,7 +4,7 @@ using System.Text;
 
 namespace S3.Polymorfi.Entities
 {
-    interface IPayable
+    public interface IPayable
     {
         decimal GetPaymentAmount();
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace S3.Polymorfi.Entities
 {
-    interface IPersistable
+    public interface IPersistable
     {
         int Id { get; }
     }

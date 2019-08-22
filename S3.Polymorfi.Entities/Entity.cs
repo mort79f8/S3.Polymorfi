@@ -7,13 +7,14 @@ namespace S3.Polymorfi.Entities
     public abstract class Entity : IPersistable
     {
         #region Fields
-        private int id;
+        protected int id;
+
         #endregion
 
         #region Constructors
         public Entity(int id)
         {
-            Id = id;
+            this.id = id;
         }
 
         public Entity()
@@ -23,7 +24,7 @@ namespace S3.Polymorfi.Entities
         #endregion
 
         #region Properties
-        public int Id { get; }
+        public int Id { get => id; }
         #endregion
     }
 }
